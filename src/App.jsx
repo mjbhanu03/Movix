@@ -8,8 +8,8 @@ function App() {
   },[]);
 
   const apiTesting = () => {
-    fetchDataFromApi('/movi/popular').then((res) =>{
-      console.log(res)
+    fetchDataFromApi('/movie/popular').then((res) =>{
+      console.log(res);
     })
   
   }
